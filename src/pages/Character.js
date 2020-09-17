@@ -1,6 +1,6 @@
 import getHash from '../utils/getHash';
 import getData from '../utils/getData';
-// Nuestros peronajes
+
 const Character = async () => {
     const id = getHash();
     const character = await getData(id);
@@ -15,7 +15,7 @@ const Character = async () => {
                 <h3>Species: <span>${character.species}</span></h3>
                 <h3>Gender: <span>${character.gender}</span></h3>
                 <h3>Origin: <span>${character.origin.name}</span></h3>
-                <h3>Last location: <span>${character.location}</span></h3>
+                <h3>Last location: <span>${character.location.name}</span></h3>
             </article>
         </article>
     </div>
