@@ -1,9 +1,9 @@
 const Header = () => {
     const view = `
     <div class="Header-main">
-        <div className="Header-logo">
+        <div class="Header-logo">
             <h1>
-                <a href="/">
+                <a href="/#">
                 <i class="fas fa-home"></i>
                 RickAndMorty
                 </a>
