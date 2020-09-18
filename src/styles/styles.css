@@ -26,14 +26,16 @@ i{
   letter-spacing: 8px;
 }
 .Header-nav a{
-  border: 2px solid #ff5722;
+  border: 2px solid #b1a441;
   padding: 10px;
   border-radius: 10px;
 }
 .Header-nav a:hover{
-  background: #ff5722;
+  background: #3C3B3F;
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+  background: linear-gradient(to right, #b1a441, #3C3B3F);
   color: #f4f4f4;
-  border: 2px solid #ff5722;
+  border: 2px solid #b1a441;
 }
 .Main{
   padding: 10px;
